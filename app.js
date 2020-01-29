@@ -5,8 +5,8 @@ http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'application/json' });
 
     let salida = {
-        nombre: 'Rodrigo',
-        edad: 37,
+        nombre: 'Sebastian',
+        edad: 25,
         url: req.url
     }
     res.write(JSON.stringify(salida));
